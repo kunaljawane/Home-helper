@@ -1,0 +1,168 @@
+
+body{
+    background-image:linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    
+
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #0d0cb5;
+    
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+.container1{
+    flex: 1;
+    transition: 1s;
+}
+
+.container1:hover{
+    transform:scale(1.2);
+    
+}
+
+/* h4{
+    text-shadow: 2px 1px #b9d4f1;
+} */
+
+
+span{
+    color: #2e8976;
+}
+
+/* .logo2{
+    flex: 1;
+    transition: 1s;
+}
+.logo2:hover{
+    transform: scale(1.1);
+} */
+.image1:hover{
+    transform: scale(1.1);
+}
+
+
+.card1{
+    flex: 1;
+    transition: 0.6s;
+}
+
+.card1:hover{
+    transform:scale(1.1);
+    
+}
+
+.aboutus img{
+    flex:1 1 40rem;
+  }
+  
+  .aboutus img{
+    width:100%;
+    padding:2rem;
+    animation:float 3s linear infinite;
+  }
+  
+  @keyframes float{
+    0%, 100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(3rem);
+    }
+  }
+
+  .btn{
+    display: inline-block;
+    padding:.8rem 3rem;
+    border: 2rem solid;
+    color:#2e8976;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+  }
+  
+  .btn::before{
+    content: '';
+    position: absolute;
+    top:0; right: 0;
+    width:0%;
+    height:100%;
+    background:#2e8976;
+    transition: .3s linear;
+    z-index: -1;
+    
+  }
+  
+  .btn:hover::before{
+    width:100%;
+    left: 0;
+  }
+  
+  .btn:hover a{
+    color:white;
+  }
+
+  .contact-form{
+    position: absolute;
+    
+    width: 500px;
+    
+  }
+
+  .contact-form h3{
+  
+    text-align: center;
+    margin: 40px 0;
+
+  }
+
+  /* .contact-form p{
+    margin: 20px 0;
+  } */
+
+  .contact-form input{
+    padding:10px 15px;
+    width: 130%;
+    border: 0;
+    border-radius: 10px;
+    outline: 1px;
+    background-color: #ffffff;
+  }
+  /* .contact-form button{
+    font-weight: bold;
+    margin: 30px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 140px;
+  } */
+
+  
+    
